@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Merienda:wght@300&display=swap');
+
+
+
+:root{
+   --font1:"Cinzel", serif;
+   --font2:"Merienda", cursive;
+   --fontpad: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   --font:"Arapey", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    display: flex;
+    justify-content:flex-end;
+    gap: 6em;
+    padding-top: 20px;
+    
+    list-style: none;
+    
+}
+
+hr{
+    color: #E6C7AA;
+    border-bottom: solid 3px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: var(--font2);
+    color: #E6C7AA;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+ul{
+    margin-right: 44px;
+}
+
+body{
+    background-position: top ;
+    background-size: cover;
+    height: 100vh;
+}
+.pote{
+    padding: 30px 0 ;
+    font-size: 19px;
+    text-align: center;
+    font-family: var(--font1);
+    color: #E6C7AA;
+    height: 100vh;
+}
+.pote h2{
+    background-color: rgba(0, 0, 0, 0.433);
+    font-size: 3em;
+    font-family: var(--font2);
+}
+
+.bolom{
+    height: 100vh;
+    padding: 30px 0 ;
+    font-size: 19px;
+    text-align: center;
+    font-family: var(--font1);
+    color: #E6C7AA;
+    height: 100vh;
+}
+
+.bolom h2{
+    background-color: rgba(0, 0, 0, 0.433);
+    font-size: 3em;
+    font-family: var(--font2);
+}
+
+.bolog{
+    height: 100vh;
+    padding: 30px 0 ;
+    font-size: 19px;
+    text-align: center;
+    font-family: var(--font1);
+    color: #E6C7AA;
+    height: 100vh;
+}
+
+.bolog h2{
+    background-color: rgba(0, 0, 0, 0.433);
+    font-size: 3em;
+    font-family: var(--font2);
+}
+#img01{
+    background-image: url(imagens/pexels-ak-photography-8783658\ \(1\).jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02{
+    background-image: url(imagens/bolomediom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img03{
+    background-image: url(imagens/bolograndem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
