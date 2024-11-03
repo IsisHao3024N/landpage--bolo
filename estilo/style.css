@@ -50,6 +50,56 @@ a:hover{
 ul{
     margin-right: 44px;
 }
+body{
+    background-image: url(imagens/fatia.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-left: 15px;
+    font-size: 3.2vw;
+    margin-top: 67px;
+    font-family: var(--font2);
+    color: #E6C7AA;
+}
+
+h2{
+    color: #E6C7AA;
+    font-family: var(--font2);
+    font-size: 2vw;
+    text-align: justify;
+    margin-left: 148px;
+    margin-top: 60px;
+    
+}
+hr{
+    color: #E6C7AA;
+    border-bottom: solid 3px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: var(--font2);
+    color: #E6C7AA;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+ul{
+    margin-right: 44px;
+}
 
 body{
     background-position: top ;
