@@ -151,22 +151,4 @@ body{
     font-size: 3em;
     font-family: var(--font2);
 }
-#img01{
-    background-image: url(imagens/pexels-ak-photography-8783658\ \(1\).jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#img02{
-    background-image: url(imagens/bolomediom.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#img03{
-    background-image: url(imagens/bolograndem.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+#im
